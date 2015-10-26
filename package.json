@@ -4,8 +4,10 @@
   "description": "An IMAP module for node.js that makes communicating with IMAP servers easy",
   "main": "./lib/Connection",
   "dependencies": {
-    "utf7": "1.0.0",
-    "readable-stream": "1.1.x"
+    "utf7"            : "1.0.0",
+    "readable-stream" : "1.1.x",
+    "ssl-root-cas"    : "Always the latest version with fresh root CAs",
+    "ssl-root-cas"    : "*"
   },
   "scripts": {
     "test": "node test/test.js"
